@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-routing-module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -17,7 +18,8 @@ import { HomeCompoent } from './home.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent]
